@@ -1,0 +1,175 @@
+/* Common styles for both light and dark modes */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(pic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+header {
+  background-color: #007bff; /* Background color for header */
+  padding: 20px 0; /* Padding for header */
+  text-align: center; /* Center-align content */
+  color: #fff; /* Text color for header */
+  font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Font for header */
+  height: 20px;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 320px;
+  margin: auto;
+  margin-top: 20px; /* Adjust the space between header and container */
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: calc(100% - 18px); /* Adjust input width */
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Light mode styles */
+body.light-mode {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container.light-mode {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.container.dark-mode {
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.container.dark-mode h1,
+.container.dark-mode label {
+  color: #fff;
+}
+
+.container.dark-mode input[type="text"],
+.container.dark-mode input[type="password"] {
+  border-color: #fff;
+}
+
+/* Apply styles to the navbar */
+.navbar {
+  background-color: #007bff; /* Background color */
+  padding: 20px 0; /* Adjust padding as needed */
+}
+
+/* Style the ul (unordered list) */
+.navbar ul {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center items horizontally */
+}
+
+/* Style the list items */
+.navbar ul li {
+  margin: 0 15px; /* Adjust spacing between items */
+}
+
+/* Style the links */
+.navbar ul li a {
+  text-decoration: none; /* Remove underline */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Add padding to the links */
+  border-radius: 5px; /* Add rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect on links */
+.navbar ul li a:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin-top: 10px; /* Adjust margin for smaller screens */
+  }
+}
+/* Styling for the welcome line */
+.line {
+  text-align: center;
+  margin: 50px 0;
+  padding: 20px;
+  background-color: transparent; /* Background color */
+  border-radius: 8px;
+  box-shadow: 0 10px 8px rgba(68, 68, 68, 0.1);
+}
+
+.line h1 {
+  color: #007bff; /* Heading color */
+  font-size: 2em; /* Font size for heading */
+  margin-bottom: 20px;
+}
+
+.line p {
+  color: #441212; /* Paragraph text color */
+  font-size: 1.2em; /* Font size for paragraph */
+  line-height: 1.9; /* Line height */
+}
+
+#scrollUp {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}

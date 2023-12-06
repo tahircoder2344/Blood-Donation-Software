@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins","Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(pic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300vh 100vw;
+
+}
+
+header {
+  background-color: #007bff; /* Background color for header */
+  padding: 20px 0; /* Padding for header */
+  text-align: center; /* Center-align content */
+  color: #fff; /* Text color for header */
+  font-family: 'Times New Roman', Times, serif; /* Font for header */
+  height: 20px;
+}
+/* Apply styles to the navbar */
+.navbar {
+  background-color: #007bff; /* Background color */
+  padding: 20px 0; /* Adjust padding as needed */
+  font-family: "Poppins"; /* Font for header */
+
+}
+
+/* Style the ul (unordered list) */
+.navbar ul {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center items horizontally */
+  font-family: "Poppins"; /* Font for header */
+
+}
+
+/* Style the list items */
+.navbar ul li {
+  margin: 0 15px; /* Adjust spacing between items */
+}
+
+/* Style the links */
+.navbar ul li a {
+  text-decoration: none; /* Remove underline */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Add padding to the links */
+  border-radius: 5px; /* Add rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  font-family: "Poppins"; /* Font for header */
+
+}
+
+/* Hover effect on links */
+.navbar ul li a:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin-top: 10px; /* Adjust margin for smaller screens */
+  }
+}
+div.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-family: "Poppins"; /* Font for header */
+
+}
+#btn_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 400px;
+  font-family: "Poppins"; /* Font for header */
+
+}
+button#btn_1 {
+  padding: 8px 5px;
+  height: 50px;
+  width: 250px;
+  cursor: pointer;
+  border-radius: 30px;
+  background-color:white;
+  font-family: "Poppins"; /* Font for header */
+
+}
+button#btn_1:hover{
+    width:300px ;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    transition: 0.5s;
+}
+button a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: sans-serif;
+  cursor: pointer;
+  font-family: "Poppins"; /* Font for header */
+  color: #007bff;
+
+
+}
+button a:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+
+/* Styling for the button container */
+.btn {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Poppins"; /* Font for header */
+
+}
+
+/* Styling for the button */
+.btn button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Poppins"; /* Font for header */
+
+}
+
+/* Styling for the link within the button */
+.btn button a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  
+}
+
+/* Hover effect for the button */
+.btn button:hover {
+  background-color: #aaaaaa;
+  color: rgb(0, 0, 0);
+}

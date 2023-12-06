@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donate Now</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="2ndpage.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="about.html" target="_blank">About Us </a>
+            </li>
+            <li>
+              <a href="contact.html" target="_blank">Conatct Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <a href="index.html">Back To Sign In</a>
+    <div class="btn">
+      <button type="button" id="btn_1">
+        <a href="form.html"target="_blank">Give your Contribution</a>
+      </button>
+    </div>
+    <script>
+      let modeBtn = document.querySelector("#mode");
+      let currMode = "light";
+
+      modeBtn.addEventListener("click", () => {
+        if (currMode === "light") {
+          currMode = "dark";
+          document.querySelector("body").style.backgroundColor = "black";
+          document.querySelector("body").style.color = "white";
+        } else {
+          currMode = "light";
+          document.querySelector("body").style.backgroundColor = "white";
+          document.querySelector("body").style.color = "black";
+        }
+      });
+    </script>
+  </body>
+</html>

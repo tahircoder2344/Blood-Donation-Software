@@ -1,0 +1,102 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  table {
+    border: 3px solid #6e2424;
+    border-collapse: collapse;
+    width: 70%;
+    height: 40vh;
+    margin: 20px auto;
+  }
+
+  th,
+  td {
+    border: 5px solid #4e4e4e;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #000000;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  tr:hover {
+    background-color: #b86e6e;
+    color: white;
+    transition: 0.5s;
+  }
+  tr:active{
+    background-color: rgb(80, 74, 74);
+    color: white;
+  }
+  /* Styling for the print button */
+button.btn_1 {
+    padding: 12px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;    
+  }
+  
+  button.btn_1:hover {
+    background-color: #014ea0;
+  }
+/* Styling for the header */
+header {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header span {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  header a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  header a:hover {
+    color: #0056b3;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+    /* Styling for the button */
+#mode {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 70px;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Poppins';
+}
+
+#mode:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <style>
+      header {
+        background-color: #007bff; /* Background color for header */
+        padding: 20px 0; /* Padding for header */
+        text-align: center; /* Center-align content */
+        color: #fff; /* Text color for header */
+        font-family: "Poppins"; /* Font for header */
+        height: 20px;
+      }
+      /* Apply styles to the navbar */
+      .navbar {
+        background-color: #007bff; /* Background color */
+        padding: 20px 0; /* Adjust padding as needed */
+      }
+
+      /* Style the ul (unordered list) */
+      .navbar ul {
+        list-style-type: none; /* Remove bullet points */
+        margin: 0;
+        padding: 0;
+        display: flex; /* Use flexbox for layout */
+        justify-content: center; /* Center items horizontally */
+      }
+
+      /* Style the list items */
+      .navbar ul li {
+        margin: 0 15px; /* Adjust spacing between items */
+      }
+
+      /* Style the links */
+      .navbar ul li a {
+        text-decoration: none; /* Remove underline */
+        color: #fff; /* Text color */
+        padding: 10px 20px; /* Add padding to the links */
+        border-radius: 5px; /* Add rounded corners */
+        transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+      }
+
+      /* Hover effect on links */
+      .navbar ul li a:hover {
+        background-color: #0056b3; /* Change background color on hover */
+      }
+
+      /* Media query for responsiveness */
+      @media (max-width: 768px) {
+        .container {
+          width: 90%;
+          margin-top: 10px; /* Adjust margin for smaller screens */
+        }
+      }
+      /* General styles */
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        margin: 0;
+        padding: 0px;
+      }
+
+      .about-content {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        font-size: 2.5em;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #007bff;
+      }
+
+      h2 {
+        font-size: 1.8em;
+        color: #0056b3;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 1.1em;
+        line-height: 1.6;
+        text-align: justify;
+      }
+
+      /* Additional styles for specific elements within the content */
+      /* You can further customize these styles as needed */
+
+      p strong {
+        font-weight: bold;
+        color: #0056b3;
+      }
+
+      p em {
+        font-style: italic;
+        color: #d32f2f;
+      }
+
+      .section {
+        margin-bottom: 30px;
+      }
+      /* General styles */
+      /* Same as before */
+
+      /* Additional styles for new sections */
+      .section h2 {
+        font-size: 1.8em;
+        color: #0056b3;
+        margin-bottom: 10px;
+      }
+
+      .section p {
+        font-size: 1.1em;
+        line-height: 1.6;
+        text-align: justify;
+      }
+
+      /* Additional styles for specific elements within the content */
+      /* Same as before */
+      #scrollUp {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 20px;
+        height: 20px;
+        background: rgb(0, 0, 0);
+        color: rgb(146, 0, 0);
+        text-align: center;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      #top {
+        color: rgb(248, 246, 246);
+        background-color: rgb(14, 11, 11);
+        scale: 3;
+        border: none;
+        outline: none;
+        border-radius: 100px;
+      }
+      span{
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="about.html">About Us </a>
+            </li>
+            <li>
+              <a href="contact.html">Conatct Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div id="scrollUp"><i class="fa-solid fa-angle-up" id="top"></i></div>
+
+    <div class="about-content">
+      <h1>
+        Welcome to <span>Red Organizations, Ltd.</span>:
+        Empowering Lives through Blood Donation
+      </h1>
+      <div class="section">
+        <h2>Our Mission</h2>
+        <p>
+          At Red Organizations, Ltd., we're on a heartfelt mission—to save
+          lives, foster hope, and create a healthier future. Since our
+          establishment, our commitment to serving communities through blood
+          donation has been unwavering.
+        </p>
+      </div>
+      <div class="section">
+        <h2>Our Founding Vision</h2>
+        <p>
+          Driven by a vision to bridge the gap between those in need and
+          life-saving blood, Red Organizations, Ltd. was born. Our founders,
+          deeply touched by the impact of blood donation, envisioned a platform
+          where individuals, driven by compassion, could come together to make a
+          tangible difference.
+        </p>
+      </div>
+      <div class="section">
+        <h2>Commitment to Saving Lives</h2>
+        <p>
+          At the heart of our organization lies a simple yet powerful belief:
+          every drop of blood donated has the potential to save a life. This
+          belief propels us forward, guiding every initiative and inspiring our
+          passionate community of donors.
+        </p>
+      </div>
+      <div class="section">
+        <h2>Empowering Communities</h2>
+        <p>
+          We're not just a blood donation company; we're a catalyst for positive
+          change within communities. Through our donation drives, educational
+          programs, and partnerships with medical institutions, we strive to
+          create awareness and encourage a culture of regular blood donation.
+        </p>
+      </div>
+      <div class="section">
+        <h2>The Power of Volunteering</h2>
+        <p>
+          Our volunteers are the lifeblood of our organization—individuals
+          united by the common goal of making a difference. Their dedication and
+          selflessness in organizing events, facilitating donations, and
+          spreading awareness form the backbone of our impactful initiatives.
+        </p>
+      </div>
+      <div class="section">
+        <h2>Safe and Accessible Donation</h2>
+        <p>
+          We prioritize the safety, comfort, and accessibility of our donors.
+          Our donation centers adhere to the highest standards of safety and
+          hygiene, ensuring a comfortable and stress-free environment for every
+          donation.
+        </p>
+      </div>
+      <div class="section">
+        <h2>Looking Ahead</h2>
+        <p>
+          As we move forward, our commitment to excellence and impact remains
+          steadfast. We envision a future where every person in need has swift
+          access to life-saving blood and where our collective efforts continue
+          to save lives and create a healthier society.
+        </p>
+      </div>
+      <div class="section">
+        <h2>Join Our Cause</h2>
+        <p>
+          To all those who believe in the power of giving, in the impact of a
+          single act of kindness, we invite you to join us. Whether as a donor,
+          a volunteer, or a supporter, your contribution will be invaluable in
+          our ongoing mission to save lives.
+        </p>
+        <p>
+          Together, let's continue to spread hope and save lives—Welcome to Red
+          Organizations, Ltd.
+        </p>
+      </div>
+    </div>
+    <script>
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          document.getElementById("scrollUp").style.display = "block";
+        } else {
+          document.getElementById("scrollUp").style.display = "none";
+        }
+      }
+
+      document.getElementById("scrollUp").onclick = function () {
+        scrollToTop(1000); // 1000ms = 1 second for smooth scrolling
+      };
+
+      function scrollToTop(scrollDuration) {
+        var scrollStep = -window.scrollY / (scrollDuration / 15);
+        var scrollInterval = setInterval(function () {
+          if (window.scrollY !== 0) {
+            window.scrollBy(0, scrollStep);
+          } else {
+            clearInterval(scrollInterval);
+          }
+        }, 15);
+      }
+    </script>
+  </body>
+</html>

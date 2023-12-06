@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="sign-up.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="navbar">
+            <ul>
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="about.html" target="_blank">About Us </a>
+              </li>
+              <li>
+                <a href="contact.html"target="_blank">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    <form id="loginForm">
+        <div class="container">
+            <div class="container-1">
+              <h1>Sign In</h1>
+              <div class="input-1">
+                <h3 id="user">Username:</h3>
+                <input
+                  type="text"
+                  id="username"
+                  name="username"
+                  title="username"
+                  required
+                />
+                <label for="username"></label>
+              </div>
+              <div class="input-2">
+                <h3 id="pass">Email:</h3>
+                <input
+                  type="email"
+                  id="mail"
+                  name="email"
+                  title="Email"
+                  required
+                />
+                <label for="email"></label>
+              </div>
+              <div class="input-3">
+                <h3 id="pass">Password:</h3>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  title="password"
+                  required
+                />
+                <label for="password"></label>
+              </div>
+              <div class="input-4">
+                <h3 id="cpass">Confirm your password:</h3>
+                <input
+                  type="password"
+                  id="cpassword"
+                  name="cpassword"
+                  title="cpassword"
+                  required
+                />
+                <label for="cpassword"></label>
+              </div>
+              <input type="submit" value="Sign Up" class="sign-up" />
+              <span>Already have an account? <a href="index.html">Login Now!</a></span>
+            </div>
+        </div>
+    </form>
+    <script src="sign-up.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Red Organizations, Ltd.</title>
+    <link rel="stylesheet" href="home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="scrollUp">&#8593;</div>
+    <a id="top"></a>
+
+    <header>
+      <nav>
+        <div class="navbar">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="about.html" target="_blank">About Us </a>
+            </li>
+            <li>
+              <a href="contact.html" target="_blank">Conatct Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="line">
+      <h1 style="color: red">Red Organizations, Ltd.</h1>
+      <p>
+        Donating blood is a straightforward process that typically takes less
+        than an hour but can have a profound impact. Each donation can
+        potentially save multiple lives as blood is separated into various
+        components used to treat specific illnesses or injuries.
+      </p>
+    </div>
+    <div class="container">
+      <div class="container-1">
+        <h1>Sign In</h1>
+        <form id="loginForm">
+          <div class="input-1">
+            <h3 id="user" itemid="username">Username:</h3>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              title="username"
+              required
+            />
+            <label for="username"></label>
+          </div>
+          <div class="input-2">
+            <h3 id="pass">Password:</h3>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              title="password"
+              required
+            />
+            <label for="password"></label>
+          </div>
+          <span
+            >Don't have an account?
+            <a href="sign-up.html" style="text-decoration: none"
+              >Sign Up!</a
+            ></span
+          >
+          <input type="submit" value="Login" class="sign-in" />
+        </form>
+      </div>
+    </div>
+    <script src="home.js"></script>
+  </body>
+</html>

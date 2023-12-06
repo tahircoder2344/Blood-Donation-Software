@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blood Info Form</title>
+
+    <link rel="stylesheet" href="form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+    
+    <button id="mode" type="button" title="Toggle Dark Mode">
+      Click here to turn Dark Mode ON
+      <i class="fas fa-lightbulb"></i> 
+    </button>
+    
+  <br />
+    <br />
+    <br />
+    <form id="myForm">
+      <label for="input-1">Student's Name : </label>
+      <input type="text" title="input-1" placeholder="Enter your name" id="in-1" />
+      <br />
+      <label for="input-1">Father's Name : </label>
+      <input
+        type="text"
+        title="input-2"
+        placeholder="Enter your father's name"
+        id="in-2"
+        />
+      <br />
+      <label for="input-1">Mother's Name : </label>
+      <input
+        type="text"
+        title="input-3"
+        placeholder="Enter your mother's name"
+        id="in-3"
+      />
+      <br />
+      <label for="input-1">Grade : </label>
+      <input type="text" title="input-4" placeholder="Enter your grade" id="in-4" />
+      <br />
+      <label for="input-1">Blood Group Type : </label>
+      <input
+        type="text"
+        title="input-5"
+        placeholder="Enter your blood group type"
+        id="in-5"
+      />
+      <br />
+      <button type="submit" onsubmit="send(), displayFormData()" id="btn">Sumbit Record</button>
+
+    </form>
+    <br />
+    <br />
+    <br />
+
+    <a href="2ndpage.html" class="button">Back to Capture</a>
+    <script src="form.js"></script>
+  </body>
+</html>
